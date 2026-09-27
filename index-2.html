@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodGo Nawabganj</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:#fff8f0;color:#222}
+header{background:#ff6b00;color:#fff;padding:18px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:bold}
+nav a{color:#fff;text-decoration:none;margin-left:15px;font-weight:bold}
+.hero{text-align:center;padding:75px 20px;background:#ffe5c7}
+.hero h1{font-size:42px;color:#ff6b00;margin-bottom:12px}
+.hero p{font-size:19px;margin-bottom:25px}
+.btn{display:inline-block;background:#ff6b00;color:#fff;padding:12px 22px;border-radius:25px;text-decoration:none;font-weight:bold}
+.section{padding:50px 6%;text-align:center}
+.section h2{color:#ff6b00;margin-bottom:25px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.food{background:#fff;padding:25px;border-radius:15px;box-shadow:0 4px 15px #0001}
+.emoji{font-size:55px}.food h3{margin:10px}.price{color:#ff6b00;font-size:20px;font-weight:bold;margin-bottom:14px}
+.contact{background:#222;color:#fff}
+footer{background:#111;color:#aaa;text-align:center;padding:18px}
+@media(max-width:600px){header{flex-direction:column;gap:10px}.hero h1{font-size:34px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🍔 FoodGo Nawabganj</div>
+<nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#contact">Contact</a></nav>
+</header>
+<section class="hero" id="home">
+<h1>FoodGo Nawabganj</h1>
+<p>Delicious Food, Fast Delivery 🚴</p>
+<a class="btn" href="#menu">Order Now</a>
+</section>
+<section class="section" id="menu">
+<h2>Our Menu 🍴</h2>
+<div class="menu">
+<div class="food"><div class="emoji">🍔</div><h3>Chicken Burger</h3><div class="price">৳150</div><a class="btn" href="#contact">Order</a></div>
+<div class="food"><div class="emoji">🍕</div><h3>Pizza</h3><div class="price">৳250</div><a class="btn" href="#contact">Order</a></div>
+<div class="food"><div class="emoji">🍗</div><h3>Fried Chicken</h3><div class="price">৳180</div><a class="btn" href="#contact">Order</a></div>
+<div class="food"><div class="emoji">🍟</div><h3>French Fries</h3><div class="price">৳100</div><a class="btn" href="#contact">Order</a></div>
+</div>
+</section>
+<section class="section contact" id="contact">
+<h2>Contact Us 📞</h2>
+<p>📍 Delivery Area: Nawabganj</p><br>
+<p>📞 Phone: 01XXXXXXXXX</p><br>
+<a class="btn" href="tel:01XXXXXXXXX">Call Now</a>
+</section>
+<footer>© 2026 FoodGo Nawabganj</footer>
+</body>
+</html>
